@@ -13,7 +13,6 @@ import {
   IconSeparator,
   IconVercel
 } from '@/components/ui/icons'
-import { BsGithub } from 'reacticons'
 import { SidebarFooter } from '@/components/sidebar-footer'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { ClearHistory } from '@/components/clear-history'

@@ -12,7 +12,7 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       )}
       {...props}
     >
-      Sherlock, the Science Olympiad tutor. Built with {' '}
+      Sherlock, the Science Olympiad Tutor. Built with {' '}
       <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
       <ExternalLink href="https://supabase.com">Supabase</ExternalLink>.
     </p>

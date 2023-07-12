@@ -7,15 +7,15 @@ import { IconArrowRight } from '@/components/ui/icons'
 const exampleMessages = [
   {
     heading: 'Explain technical concepts',
-    message: `What is a "serverless function"?`
+    message: `Explain the process of DNA replication in eukaryotic cells?`
   },
   {
-    heading: 'Summarize an article',
-    message: 'Summarize the following article for a 2nd grader: \n'
+    heading: 'Understand rules',
+    message: 'What are required supplies for Disease Detectives?'
   },
   {
-    heading: 'Draft an email',
-    message: `Draft an email to my boss about the following: \n`
+    heading: 'Draft full worksheets and lessons',
+    message: `Create questions for Module 1 of Disease Detectives`
   }
 ]
 

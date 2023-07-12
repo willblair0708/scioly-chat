@@ -30,6 +30,6 @@ This template ships with OpenAI `gpt-3.5-turbo` as the default. However, thanks 
 
 ## Authors
 
-This library is created by [Vercel](https://vercel.com) and [Next.js](https://nextjs.org) team members, with contributions from:
+This library is created by [Vercel](https://vercel.com) and [Next.js](https://nextjs.org), with additional contributions from:
 
 - Will Blair ([@willblair](https://twitter.com/willjblair07)) - [LinkedIn](https://linkedin.com/in/willblair1)

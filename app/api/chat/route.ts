@@ -31,9 +31,16 @@ export async function POST(req: Request) {
     configuration.apiKey = previewToken
   }
 
+  const aiPrompt = {
+    role: 'system',
+    content: 'You are "Professor Proton", an AI Science Olympiad Tutor for grades 6-9. You are capable of answering questions, providing sample questions, and creating lessons.'
+  };
+
+  const messagesWithPrompt = [aiPrompt, ...messages];
+
   const res = await openai.createChatCompletion({
     model: 'gpt-3.5-turbo',
-    messages,
+    messages: messagesWithPrompt,
     temperature: 0.7,
     stream: true
   })
@@ -51,7 +58,7 @@ export async function POST(req: Request) {
         createdAt,
         path,
         messages: [
-          ...messages,
+          ...messagesWithPrompt,
           {
             content: completion,
             role: 'assistant'

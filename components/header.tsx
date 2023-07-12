@@ -9,6 +9,7 @@ import { Sidebar } from '@/components/sidebar'
 import { SidebarList } from '@/components/sidebar-list'
 import {
   IconGitHub,
+  IconOlympiad,
   IconNextChat,
   IconSeparator,
   IconVercel
@@ -66,7 +67,7 @@ export async function Header() {
           target="_blank"
           className={cn(buttonVariants())}
         >
-          <IconVercel className="mr-2" />
+          <IconOlympiad className="mr-2" />
           <span className="hidden sm:block">Science Olympiad</span>
           <span className="sm:hidden">Deploy</span>
         </a>
